@@ -4,11 +4,16 @@ pub struct PhoneRu {
 }
 
 pub enum FormatterTypes {
+    // **********
     WithoutCode,
+    // +7**********
     WithPlus,
-    WithPlusHyphen,          // +7 *** ***-**-**
-    WithPlusBracketsHyphen,  // +7 (***) ***-**-**
-    WithPlusBracketsHyphen2, // +7 (***) ***-****
+    // +7 *** ***-**-**
+    WithPlusHyphen,
+    // +7 (***) ***-**-**
+    WithPlusBracketsHyphen,
+    // +7 (***) ***-****
+    WithPlusBracketsHyphen2,
 }
 
 #[derive(Debug)]
