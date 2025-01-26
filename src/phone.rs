@@ -1,6 +1,6 @@
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct PhoneRu {
-    pub phone: String,
+    phone: String,
 }
 
 pub enum FormatterTypes {
