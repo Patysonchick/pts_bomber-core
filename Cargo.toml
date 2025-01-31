@@ -5,9 +5,12 @@ authors = ["Эдгар Томский <edgarkozlov3229@gmail.com>"]
 edition = "2021"
 description = "pts_bomber in one library."
 readme = "README.md"
-repository = "https://github.com/Patysonchick/pts_bomber-core"
+homepage = "https://github.com/Patysonchick/pts_bomber-core"
+repository = "https://github.com/Patysonchick/pts_bomber-core.git"
 license = "MIT"
 license-file = "LICENSE"
+keywords = ["bomber", "sms", "call", "services"]
+categories = ["network-programming"]
 
 [dependencies]
 reqwest = { version = "0.12.12", features = ["json"] }
